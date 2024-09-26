@@ -13,6 +13,7 @@ plotly = "*"
 nbformat = "*"
 category-encoders = "*"
 joblib = "*"
+xgboost = "*"
 
 [dev-packages]
 ipykernel = "*"
