@@ -1,3 +1,9 @@
 # Stock Price Prediction
 
-Predicting the movements of stock prices and the prices themselves using feature engineering (rolling statistics) and ensemble methods.
+This project predicts the closing price of the stocks and it's movement (up or down).
+
+The regression model is an ensemble of Linear Regression and Extra Randomized Trees, while the classification model is a Logistic Regression.
+
+# Results:
+
+0.0012 Root Mean Squared Error for the regressor, 0.995 F1 score for the classifier.
