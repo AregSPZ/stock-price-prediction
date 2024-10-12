@@ -1,6 +1,6 @@
 # Stock Price Prediction
 
-This project predicts the closing price of the stocks and it's movement (up or down).
+This project predicts the closing price of the stocks for a given day and it's movement (up or down).
 
 The regression model is an ensemble of Linear Regression and Extra Randomized Trees, while the classification model is a Logistic Regression.
 
