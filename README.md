@@ -10,6 +10,7 @@ The primary goal is to accurately forecast stock prices and their movements to a
 
 # Models Used
 Regression Model: A voting ensemble consisting of Linear Regression and Extra Randomized Trees (scikit-learn's LinearRegression and ExtraTreesRegressor respectively), combining performance and efficiency.
+
 Classification Model: Logistic Regression (scikit-learn's LogisticRegression) to predict the movement (up or down) of stock prices.
 
 # Results
