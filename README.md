@@ -14,6 +14,7 @@ Regression Model: A voting ensemble consisting of Linear Regression and Extra Ra
 Classification Model: Logistic Regression (scikit-learn's LogisticRegression) to predict the movement (up or down) of stock prices.
 
 # Results
-Regressor: Achieved a Root Mean Squared Error (RMSE) of 0.096 on the test dataset.
+Regressor: Achieved a Root Mean Squared Error (RMSE) of 0.096 on the test dataset (target feature and predictions are normalized)
+
 Classifier: Achieved a 0.993 F1 score on the test dataset.
 
