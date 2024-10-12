@@ -2,7 +2,7 @@
 
 This project predicts the closing price of the stocks for a given day and it's movement (up or down).
 
-The regression model is an ensemble of Linear Regression and Extra Randomized Trees, while the classification model is a Logistic Regression.
+The regression model is a voting ensemble consisting of Linear Regression and Extra Randomized Trees for combining performance and efficiency, while the classification model is a Logistic Regression.
 
 # Results:
 
