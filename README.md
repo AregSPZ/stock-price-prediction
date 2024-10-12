@@ -1,9 +1,18 @@
 # Stock Price Prediction
 
-This project predicts the closing price of the stocks for a given day and it's movement (up or down) while knowing its opening price, date and company name.
+This project focuses on predicting the closing price of stocks and their movements using feature engineering and ensemble methods.
 
-The regression model is a voting ensemble consisting of Linear Regression and Extra Randomized Trees for combining performance and efficiency, while the classification model is a Logistic Regression.
+# Model Description
+The model predicts the closing price of stocks for a given day and its movement (up or down) based on the opening price, date, and company name.
 
-# Results:
+# Goal
+The primary goal is to accurately forecast stock prices and their movements to aid in better investment decisions.
 
-0.096 Root Mean Squared Error for the regressor, 0.993 F1 score for the classifier.
+# Models Used
+Regression Model: A voting ensemble consisting of Linear Regression and Extra Randomized Trees (scikit-learn's LinearRegression and ExtraTreesRegressor respectively), combining performance and efficiency.
+Classification Model: Logistic Regression (scikit-learn's LogisticRegression) to predict the movement (up or down) of stock prices.
+
+# Results
+Regressor: Achieved a Root Mean Squared Error (RMSE) of 0.096 on the test dataset.
+Classifier: Achieved a 0.993 F1 score on the test dataset.
+
