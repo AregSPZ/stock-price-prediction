@@ -1,4 +1,4 @@
-# Stock Price Prediction
+# Stock Price & Movement Prediction
 
 This project focuses on predicting the closing price of stocks and their movements using feature engineering and ensemble methods.
 
